@@ -1,0 +1,45 @@
+.registro label{
+    text-align: justify;
+    font-weight: 500;
+}
+
+
+.formulario .registro {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .formulario input {
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: red;
+    padding: 5px;
+  }
+
+  @media screen and (max-width: 992px) {
+    .registro label{
+        display: none;
+    }
+    .formulario input {
+        width: 100%;
+        height: 50%;
+      }
+  }
+
+  @media screen and (max-width: 600px) {
+    .registro label{
+        display: none;
+    }
+    .formulario input {
+        width: 100%;
+        height: 50%;
+      }
+  }

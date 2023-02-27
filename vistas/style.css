@@ -1,0 +1,168 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+}
+
+header {
+	background: #d9534f;
+	text-align: center;
+	width: 100%;
+	height: 90%;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	border-radius: 0 0 100% 90% / 90%;
+    margin: 0;
+}
+
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+	
+}
+
+h1 {
+	font-size: 80px;
+    font-weight: 400;
+    padding-top: 40px;
+	margin-bottom: 100px;
+    color: #fff;
+}
+
+.botones{
+    width:600px;
+	height:400px;
+	margin:0px auto;
+	text-align:center;
+    margin-top: 20px;
+  position: relative;
+  top: 50%;
+}
+
+.formulario {
+    border-radius: 5px;
+    height: 40px ;
+    width: 100%;
+
+}
+
+.imagen{
+
+    font-size: 800%;
+}
+
+.inputs{
+    width:600px;
+	height:400px;
+	margin:0px auto;
+	text-align:center;
+    margin-top: 20px;
+  position: relative;
+  top: 50%;
+}
+
+.registro input{
+    border-radius: 5px;
+    height: 40px ;
+    width: 100%;
+    border: solid 1px;
+    border-color: red;
+    padding: 20px;
+    margin-bottom: 11px;
+    
+}
+
+.buscar input{
+    width: 50%;
+    height: 40px;
+    border: solid 1px;
+    padding: 20px;
+    border-radius: 5px;
+    border-color: red;
+    margin-bottom: 11px;
+    margin-left: 70px;
+}
+
+.registro select{
+    border-radius: 5px;
+    height: 40px ;
+    width: 100%;
+    border: solid 1px;
+    border-color: red;
+    margin-bottom: 11px;
+}
+
+.btnbuscar{
+    margin-left: 70px;
+}
+
+.button{
+    border-radius: 50px;
+}
+
+.table{
+    margin-top: auto;
+    
+}
+
+@media screen and (max-width: 992px) {
+    .inputs{
+        width:100%;
+        height:50px;
+        font-size: 20px;
+    }
+      
+    .registro input{
+        width:100%;
+        height:1px;
+        font-size: 20px;
+      }
+
+      .buscar input{
+        width: 60%;
+        height: 40px;
+    }
+    table{
+        width: 40%;
+        
+    }
+
+    .th{
+        width: 5%;
+    }
+
+  }
+
+  
+
+  @media screen and (max-width: 600px) {
+      
+    .inputs{
+        width:100%;
+        height:50px;
+    }
+    .registro input{
+        width:100%;
+        height:1px;
+        font-size: 22px;
+      }
+    .buscar input{
+        width: 60%;
+        height: 40px;
+    }
+    table{
+        width: 10%;
+        
+    }
+  }

@@ -1,0 +1,29 @@
+header .flecha .fa{
+    color: #ffff; 
+    display: flex; 
+    position: absolute; 
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    header .flecha .fa{
+        color: #ffff; 
+        display: flex; 
+        position: absolute; 
+        font-size: 40px;
+        margin-top: 20px;
+    }    
+  }
+
+  @media screen and (max-width: 600px) {
+    header .flecha .fa{
+        color: #ffff; 
+        display: flex; 
+        position: absolute; 
+        font-size: 30px;
+        margin-top: 20px;
+    }
+  }
